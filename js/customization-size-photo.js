@@ -48,7 +48,7 @@ const enlargesPhoto = () => {
 const clearPhotoSize = () => {
   currentValue = 100;
   currentPhoto.style.transform = 'scale(1)';
-  scalePhotoSize.value = '100%';
+  scalePhotoSize.value = `${MAX_PHOTO_SIZE}%`;
 };
 
 
